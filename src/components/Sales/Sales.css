@@ -1,0 +1,121 @@
+
+
+.form-sales-dates {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4rem;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.form-sales-dates div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .button-sales-find,
+.button-sales-find button {
+  display: grid;
+  place-content: center;
+  height: 2rem;
+  display: grid;
+  place-content: center;
+} */
+
+
+
+.totals-sales-messages {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.totals-sales-messages table {
+  border-collapse: collapse;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+.totals-sales-messages table td {
+  border: solid 1px black;
+  width: 50%;
+}
+
+.ubication-selector-sales {
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.totals-sales-messages div {
+  display: flex;
+  justify-content: space-around;
+  height: 3rem;
+  align-items: center;
+}
+
+.sales-table-container {
+  max-height: 20rem;
+  overflow-y: auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.sales-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.sales-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.sales-table th,
+.sales-table td {
+  border: solid 1px black;
+  border-top: none;
+}
+
+.sales-table th {
+  height: 2rem;
+  background-color: var(--lila-oscuro);
+  font-size: 1.3rem;
+  color: white;
+
+}
+
+.date-selector-sales {
+  font-size: 1.2rem;
+}
+
+.display-false {
+  display: none;
+}
+
+.sales-message {
+  font-size: 1.3rem;
+  text-align: center;
+  color: red;
+}
+
+.delete-sale-button {
+  cursor: pointer;
+}
+
+
+.container-deletesale-message {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}

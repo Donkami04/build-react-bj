@@ -1,0 +1,29 @@
+.cuadre-container {
+    position: absolute;
+    right: 10px;
+    top: calc(10px + 6rem + 2px);
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    justify-content: space-evenly;
+    border: solid 2px black;
+    padding: 5px;
+}
+
+.cuadre-container input {
+    width: 5rem;
+}
+.cuadre-container button {
+    width: 5rem;
+}
+
+.cuadre-container span {
+    background-color: greenyellow;
+
+}
+
+.total-moneybox {
+    width: 100%;
+    text-align: center;
+}
